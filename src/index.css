@@ -3,17 +3,27 @@
 :root {
   font-family: "Bricolage Grotesque", system-ui, sans-serif;
   color: #ffffff;
-  background: #090b0f;
+  background: #0a0a0a;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100%;
+  background: #0a0a0a;
 }
 
 body {
-  margin: 0;
-  min-width: 320px;
-  min-height: 100vh;
-  background: #090b0f;
+  overflow-x: hidden;
 }
 
 a {
   color: inherit;
   text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
 }
