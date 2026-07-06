@@ -62,7 +62,7 @@ const sections = [
   {
     title: "Contact Us",
     body: [
-      "If you have questions about this Privacy Policy or how your information is handled, contact us at support@needone.app.",
+      "If you have questions about this Privacy Policy or how your information is handled, contact us at support@needonegolf.app.",
     ],
   },
 ]

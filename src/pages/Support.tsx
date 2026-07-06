@@ -5,21 +5,20 @@ const supportTopics = [
     title: "Profile Issue",
     subtitle: "Account, GHIN, club access",
     icon: CircleUser,
-    href: "mailto:needonesupport@gmail.com?subject=Need One Support - Profile Issue",
+    href: "mailto:support@needonegolf.app?subject=Need One Support - Profile Issue",
     className: "bg-[#102033] text-[#0EA5E9]",
   },
   {
     title: "Bug Report",
     subtitle: "Something is not working right",
     icon: Bug,
-    href: "mailto:needonesupport@gmail.com?subject=Need One Support - Bug Report",
-    className: "bg-[#331718] text-[#EF4444]",
+    href: "mailto:support@needonegolf.app?subject=Need One Support - Bug Report",    className: "bg-[#331718] text-[#EF4444]",
   },
   {
     title: "Feature Request",
     subtitle: "Ideas to improve the app",
     icon: Sparkles,
-    href: "mailto:needonesupport@gmail.com?subject=Need One Support - Feature Request",
+    href: "mailto:support@needonegolf.app?subject=Need One Support - Feature Request",
     className: "bg-[#302508] text-[#F59E0B]",
   },
 ]
@@ -65,11 +64,10 @@ export function Support() {
           <p className="mt-16 text-[14px] font-medium text-[#8E8E93]">
             Still need help?{" "}
             <a
-              href="mailto:needonesupport@gmail.com"
+              href="mailto:support@needonegolf.app"
               className="font-black text-[#22C55E]"
             >
-              Email us at needonesupport@gmail.com
-            </a>
+            Email us at support@needonegolf.app            </a>
           </p>
         </div>
       </section>
