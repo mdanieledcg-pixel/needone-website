@@ -4,22 +4,22 @@ const roadmapItems = [
   {
     icon: CalendarDays,
     title: "GHIN Integration",
-    body: "Handicap-aware matchmaking to help you find the right game.",
+    body: "Verified handicaps for fair games and better competition.",
   },
   {
     icon: Search,
     title: "Public Golf",
-    body: "Expand beyond the private club to public courses and casual groups.",
+    body: "Expand beyond the private club to public courses to find the players you want to play with.",
   },
   {
     icon: ListChecks,
-    title: "Golf Genius Sync",
-    body: "Connect with your club's tournament software for seamless event coordination.",
+    title: "Big Game Tracking",
+    body: "Through an integration or we will build our own inhouse game tracking system.",
   },
   {
     icon: Users,
     title: "Club Tee Times",
-    body: "Book directly through the app with integrated club tee time availability.",
+    body: "Sync directly with your club's tee time system.",
   },
 ]
 
