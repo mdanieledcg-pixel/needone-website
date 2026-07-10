@@ -1,4 +1,4 @@
-import { Apple } from "lucide-react"
+import { Apple, Play } from "lucide-react"
 import { Link, NavLink } from "react-router-dom"
 import logo from "../assets/need-one-logo.png"
 
@@ -16,9 +16,11 @@ export function Header() {
         <NavLink to="/" className="text-white/50">
           Home
         </NavLink>
+
         <NavLink to="/support" className="text-[#22C55E]">
           Support
         </NavLink>
+
         <NavLink to="/privacy" className="text-white/50">
           Privacy
         </NavLink>
@@ -27,21 +29,21 @@ export function Header() {
       <div className="flex shrink-0 items-center gap-3">
         <a
           href="#download"
-          className="flex h-[37px] items-center justify-center gap-2 rounded-full bg-[#22C55E] px-5 text-[13px] font-black text-[#0A0A0A]"
+          className="flex h-[37px] items-center justify-center gap-2 rounded-full border border-white/15 bg-white/5 px-5 text-[13px] font-black text-white/60"
         >
           <Apple className="h-[14px] w-[14px]" />
-            Coming Soon on the App Store
+          Coming Soon on the App Store
         </a>
 
-      <a
-        href="https://play.google.com/store/apps/details?id=com.needone.app"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="..."
-      >
-        Get it on Google Play
-      </a>
-      
+        <a
+          href="https://play.google.com/store/apps/details?id=com.needone.app"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex h-[37px] items-center justify-center gap-2 rounded-full bg-[#22C55E] px-5 text-[13px] font-black text-[#0A0A0A]"
+        >
+          <Play className="h-[14px] w-[14px] fill-current" />
+          Get it on Google Play
+        </a>
       </div>
     </header>
   )
