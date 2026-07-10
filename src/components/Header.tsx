@@ -30,8 +30,18 @@ export function Header() {
           className="flex h-[37px] items-center justify-center gap-2 rounded-full bg-[#22C55E] px-5 text-[13px] font-black text-[#0A0A0A]"
         >
           <Apple className="h-[14px] w-[14px]" />
-          Download
+            Coming Soon on the App Store
         </a>
+
+      <a
+        href="https://play.google.com/store/apps/details?id=com.needone.app"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="..."
+      >
+        Get it on Google Play
+      </a>
+      
       </div>
     </header>
   )
