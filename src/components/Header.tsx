@@ -12,19 +12,23 @@ export function Header() {
         </span>
       </Link>
 
-      <nav className="hidden items-center gap-8 text-[13px] font-bold text-white/50 md:flex">
-        <NavLink to="/" className="text-white/50">
-          Home
-        </NavLink>
+    <nav className="hidden items-center gap-8 text-[13px] font-bold text-white/50 md:flex">
+    <NavLink to="/" className="text-white/50">
+      Home
+    </NavLink>
 
-        <NavLink to="/support" className="text-[#22C55E]">
-          Support
-        </NavLink>
+    <NavLink to="/games" className="text-white/50">
+      Games
+    </NavLink>
 
-        <NavLink to="/privacy" className="text-white/50">
-          Privacy
-        </NavLink>
-      </nav>
+    <NavLink to="/support" className="text-[#22C55E]">
+      Support
+    </NavLink>
+
+    <NavLink to="/privacy" className="text-white/50">
+      Privacy
+    </NavLink>
+  </nav>
 
 <div className="flex shrink-0 items-center gap-3">
   <a
