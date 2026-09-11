@@ -26,14 +26,16 @@ export function Header() {
         </NavLink>
       </nav>
 
-      <div className="flex shrink-0 items-center gap-3">
-        <a
-          href="#download"
-          className="flex h-[37px] items-center justify-center gap-2 rounded-full border border-white/15 bg-white/5 px-5 text-[13px] font-black text-white/60"
-        >
-          <Apple className="h-[14px] w-[14px]" />
-          Coming Soon on the App Store
-        </a>
+<div className="flex shrink-0 items-center gap-3">
+  <a
+    href="https://apps.apple.com/us/app/need-one-golf/id6788036826"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="flex h-[37px] items-center justify-center gap-2 rounded-full border border-white/15 bg-white/5 px-5 text-[13px] font-black text-white hover:bg-white/10 transition-colors"
+  >
+    <Apple className="h-[14px] w-[14px]" />
+    Download on the App Store
+  </a>
 
         <a
           href="https://play.google.com/store/apps/details?id=com.needone.app"
