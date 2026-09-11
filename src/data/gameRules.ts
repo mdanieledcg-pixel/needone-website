@@ -103,7 +103,7 @@ export const gameRules: GameRule[] = [
     name: "Pittsburgh",
     category: "Tee Time Game",
     summary:
-      "A four-player team betting game using better ball and multiple running bets called ways.",
+      "A four-player team betting game using better ball and multiple running bets called ways. Its roots were started out at a club around Pittsburgh, and brought to The 1912 Club in Plymouth Meeting, PA, where it has taken over as the standard 4-some game.",
     rules: [
       "Pittsburgh is a high-action four-player betting game played between two fixed teams of two. The game uses net better ball along with multiple running bets called ways. Several ways can be open at the same time, so the game can change quickly.",
       "Split the foursome into two fixed teams of two. Both players play their own ball, and the lower net score between the partners becomes the team's score for the hole. Before teeing off, the group can agree on a value for each way, such as $5 per way.",
