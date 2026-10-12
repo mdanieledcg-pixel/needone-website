@@ -8,16 +8,17 @@ export type GameRule = {
 
 export const gameRules: GameRule[] = [
   {
-    slug: "blind-better-ball",
-    name: "Blind Better Ball",
+    slug: "better-ball",
+    name: "Better Ball",
     category: "Field Game",
     summary:
-      "Random two-person teams compete using the better score from each team on every hole.",
+      "Two-person teams compete using the better score from each team on every hole. Teams can be selected manually or randomly assigned.",
     rules: [
-      "Blind Better Ball is a team game where the partnerships are determined randomly. Once the teams are drawn, each two-player team plays better ball for the round. The game requires an even number of players so everyone can be paired.",
-      "The game can be played using gross or net scores. Both partners play their own ball on every hole, and the lower score between the two partners becomes the team's score for that hole.",
-      "For example, if one partner makes 4 and the other makes 5, the team records a 4 for the hole. Continue the same way throughout the round, adding the team's counting score from every hole.",
-      "The team with the lowest total better-ball score at the end of the round wins. If two teams finish with the same total, the game is tied.",
+      "Better Ball is a team game played with two-person partnerships. Teams can be manually selected before the round or randomly generated using Need One's team randomizer. The game requires an even number of players so everyone can be paired.",
+      "Better Ball can be played using gross or net scores. When using net scoring, handicap strokes are applied according to the game's configured handicap settings.",
+      "Both partners play their own ball on every hole. The lower score between the two partners becomes the team's score for that hole. For example, if one partner makes 4 and the other makes 5, the team records a 4. When playing net Better Ball, the lower net score is used instead.",
+      "The team's counting score from each hole is added together throughout the round. Only one score per team counts on each hole, regardless of which partner provides it.",
+      "The team with the lowest total Better Ball score at the end of the round wins. If two or more teams finish with the same total, the game is tied.",
     ],
   },
 
