@@ -135,6 +135,26 @@ export const gameRules: GameRule[] = [
     ],
   },
 
+    {
+    slug: "vegas",
+    name: "Vegas",
+    category: "Tee Time Game",
+    summary:
+      "A four-player team game where partners combine their hole scores into a two-digit number, with birdie flips, optional multipliers, and Set Teams or Left-Right formats.",
+    rules: [
+      "Vegas is a four-player golf game played as two teams of two. Each golfer plays their own ball, and the two teammates' scores are combined into a team number on every hole. The game can be played using gross or net scores, with handicap strokes applied when net scoring is selected.",
+      "In Set Teams, the same two partnerships remain together throughout the round. In Left-Right, partnerships can change from hole to hole. Need One lets players select and save the teams for each hole.",
+      "To calculate a team's Vegas number, place the lower score first and the higher score second. For example, scores of 4 and 5 produce 45, while scores of 3 and 6 produce 36. The team with the lower number wins the hole, and the difference between the two numbers determines the points won.",
+      "The Rule of 10+ applies when a golfer scores 10 or higher. In that case, the higher score goes first. For example, scores of 4 and 10 produce 104 rather than 410.",
+      "When Birdie Flip is enabled, a birdie flips the opposing team's Vegas number. For example, an opposing team number of 45 becomes 54. The birdie team's own number is not flipped. The 10+ Protection setting can prevent a number containing a score of 10 or higher from being flipped.",
+      "If both teammates make birdie, the Double Birdie Multiplier can increase the points awarded on the hole. Eagle bonuses can also be configured, with multiplier options ranging from 2x to 5x.",
+      "Vegas includes settings for handling multipliers when a player scores 10 or higher, as well as an optional maximum number of points that can be awarded on a single hole.",
+      "When both teams finish with the same Vegas number, the hole is a push and neither team wins points.",
+      "Each player's individual standings reflect the points won or lost by their team on each hole, including holes played with different partners. Need One tracks the running totals and can display an agreed dollar equivalent per point without processing payments.",
+      "At the end of the round, the golfer with the highest individual point total finishes ahead.",
+    ],
+  },
+
   {
     slug: "nassau",
     name: "Nassau",
